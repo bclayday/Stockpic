@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "GetStockPrice"
+    },
+    {
+      "intent": "GetWeeksLow"
+    },
+    {
+      "intent": "GetWeeksHigh"
+    },
+    {
+      "slots": [
+        {
+          "name": "SinceDate",
+          "type": "AMAZON.DATE"
+        }
+      ],
+      "intent": "GetStockSinceDate"
+    }
+  ]
+}
+
+GetStockPrice current stock price
+GetStockPrice price of stock
+GetWeeksLow what was the weeks low
+GetWeeksLow how low did the stock go this week 
+GetWeeksHigh how high did the stock og this week
+GetStockSinceDate current stock price {SinceDate}
+GetStockSinceDate whats is stocks lowest {SinceDate}
+GetStockSinceDate whats stock highest  {SinceDate}
